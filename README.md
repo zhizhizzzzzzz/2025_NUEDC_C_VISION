@@ -12,26 +12,6 @@
 
 ---
 
-## 项目结构
-```shell
-. 
-├── main.py # 主程序，提供图形界面和实时视频处理 
-├── videocatch.py # 视频录制脚本 
-├── catch.py # 图像采集脚本 
-├── train.py # 数字模板生成脚本 
-├── util_base.py # 基础工具函数 
-├── util_leaveup.py # 形状分类工具 
-├── util_num.py # 数字识别工具 
-├── imgutils.py # 图像处理工具 
-├── mathutils.py # 数学工具函数 
-├── logger.py # 日志工具 
-├── cd_serial.py # 串口通信脚本 
-├── config.yaml # 相机校准参数配置文件 
-├── digits/ # 数字模板文件夹 
-    └── output.mp4 # 默认保存的视频文件
-```
----
-
 ## 安装依赖
 
 1. 安装 Python 依赖：
@@ -55,7 +35,7 @@
     ``` bash
     python3 [videocatch.py](http://_vscodecontentref_/14)
     ```
-    
+
 3. 图像采集
 运行 catch.py，按下 k 键拍照保存，按下 q 键退出程序：
     ``` bash
